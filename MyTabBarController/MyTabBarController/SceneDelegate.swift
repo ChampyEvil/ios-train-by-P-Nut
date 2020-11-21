@@ -18,6 +18,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
+//        let myFunc: () -> ViewController = {
+//            let vc = ViewController()
+//            vc.title = "Screen A"
+//            vc.view.backgroundColor = .lightGray
+//            vc.tabBarItem = UITabBarItem(tabBarSystemItem: .history, tag: 0)
+//            return vc
+//        }
+//
+//        let screenA = myFunc()
         let screenA: ViewController = {
             let vc = ViewController()
             vc.title = "Screen A"
