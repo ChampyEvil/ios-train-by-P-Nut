@@ -53,7 +53,7 @@ class ViewController: UIViewController {
 
     private var session: URLSession!
 //    private let session = URLSession(configuration: .ephemeral)
-    private var dataTask: URLSessionDataTask!
+    private var dataTask: URLSessionDataTask?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -64,14 +64,14 @@ class ViewController: UIViewController {
         let firstname = UserDefaults.standard.string(forKey: "profile.filename")
         print(firstname)
         session = URLSession(configuration: .ephemeral, delegate: self, delegateQueue: .none)
-        searchSong("Sonic")
-//        postSong("Sonic")
+//        searchSong("Sonic")
+        postSong("Sonic")
         
     }
     
     // MARK: - search song
     func searchSong(_ name: String) {
-        dataTask.cancel()
+        dataTask?.cancel()
         // https://itunes.apple.com/search?media=music&entity=song&term=Sonic
         var components = URLComponents()
         components.scheme = "https"
@@ -102,7 +102,7 @@ class ViewController: UIViewController {
             })
         )
         
-        dataTask.resume()
+        dataTask?.resume()
     }
     
     struct Authen: Encodable {
@@ -111,7 +111,7 @@ class ViewController: UIViewController {
     }
     // MARK: - post song
     func postSong(_ name: String) {
-        dataTask.cancel()
+        dataTask?.cancel()
         
         var components = URLComponents()
         components.scheme = "https"
@@ -135,8 +135,8 @@ class ViewController: UIViewController {
             
             guard let response = response as? HTTPURLResponse else {return}
             guard response.statusCode == 200 else {return}
-            guard let data = data else {return}
-            let result = String(decoding: data, as: UTF8.self)
+//            guard let data = data else {return}
+            let result = String(decoding: data!, as: UTF8.self)
             DispatchQueue.main.async {
                 print("success :: \(result)")
             }
