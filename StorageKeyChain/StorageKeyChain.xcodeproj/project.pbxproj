@@ -16,6 +16,7 @@
 		E432CE10256A4E7B00034670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E432CE0E256A4E7B00034670 /* LaunchScreen.storyboard */; };
 		E432CE1B256A4E7B00034670 /* StorageKeyChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E432CE1A256A4E7B00034670 /* StorageKeyChainTests.swift */; };
 		E432CE26256A4E7B00034670 /* StorageKeyChainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E432CE25256A4E7B00034670 /* StorageKeyChainUITests.swift */; };
+		E432CE37256A596200034670 /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E432CE36256A596200034670 /* CoreDataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E432CE21256A4E7B00034670 /* StorageKeyChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorageKeyChainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E432CE25256A4E7B00034670 /* StorageKeyChainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageKeyChainUITests.swift; sourceTree = "<group>"; };
 		E432CE27256A4E7B00034670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E432CE36256A596200034670 /* CoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				E432CE0E256A4E7B00034670 /* LaunchScreen.storyboard */,
 				E432CE11256A4E7B00034670 /* Info.plist */,
 				E432CE09256A4E7900034670 /* StorageKeyChain.xcdatamodeld */,
+				E432CE36256A596200034670 /* CoreDataViewController.swift */,
 			);
 			path = StorageKeyChain;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				E432CE05256A4E7900034670 /* ViewController.swift in Sources */,
 				E432CE0B256A4E7900034670 /* StorageKeyChain.xcdatamodeld in Sources */,
 				E432CE01256A4E7900034670 /* AppDelegate.swift in Sources */,
+				E432CE37256A596200034670 /* CoreDataViewController.swift in Sources */,
 				E432CE03256A4E7900034670 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

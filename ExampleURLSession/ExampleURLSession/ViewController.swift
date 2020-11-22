@@ -64,8 +64,8 @@ class ViewController: UIViewController {
         let firstname = UserDefaults.standard.string(forKey: "profile.filename")
         print(firstname)
         session = URLSession(configuration: .ephemeral, delegate: self, delegateQueue: .none)
-//        searchSong("Sonic")
-        postSong("Sonic")
+        searchSong("Sonic")
+//        postSong("Sonic")
         
     }
     
