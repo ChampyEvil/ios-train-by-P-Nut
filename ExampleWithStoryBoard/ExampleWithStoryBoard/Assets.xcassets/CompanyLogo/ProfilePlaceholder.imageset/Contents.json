@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "T8M23SGFQ-USLACKBOT-sv41d8cd98f0-512.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "T8M23SGFQ-USLACKBOT-sv41d8cd98f0-513.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "T8M23SGFQ-USLACKBOT-sv41d8cd98f0-514.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

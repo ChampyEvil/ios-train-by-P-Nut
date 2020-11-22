@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RHW-5s-VDJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="58L-52-QfS">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
@@ -36,6 +36,73 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="118.52678571428571"/>
+        </scene>
+        <!--My pencil-->
+        <scene sceneID="RAw-fW-9sF">
+            <objects>
+                <viewController id="8Jo-ug-7hD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kFa-5K-O2i">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="OUJ-ux-t4x"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="My pencil" image="pencil" catalog="system" selectedImage="pencil" id="6J2-NN-GwK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P89-bR-Kpe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1048" y="1548"/>
+        </scene>
+        <!--My Folder-->
+        <scene sceneID="wKi-TW-NG6">
+            <objects>
+                <viewController id="h7s-0W-X0P" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="btM-Yv-bgL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Cpv-KQ-SXY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="My Folder" image="folder" catalog="system" selectedImage="folder" id="XFM-p0-aHX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JcW-UA-eD6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1048" y="2248"/>
+        </scene>
+        <!--My Trash-->
+        <scene sceneID="SgF-zV-7Zm">
+            <objects>
+                <viewController id="psi-uk-qtv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2zO-tj-uLB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="3dC-e8-oJ7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="My Trash" image="trash" catalog="system" selectedImage="trash" id="jND-ZO-IRV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XJA-gH-Gyf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1048" y="784"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="fzY-VQ-1YD">
+            <objects>
+                <tabBarController id="58L-52-QfS" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="n85-mR-aZp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="psi-uk-qtv" kind="relationship" relationship="viewControllers" id="gs9-3w-Rtl"/>
+                        <segue destination="8Jo-ug-7hD" kind="relationship" relationship="viewControllers" id="Dwy-Cg-e68"/>
+                        <segue destination="h7s-0W-X0P" kind="relationship" relationship="viewControllers" id="GaU-ON-Qw1"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yc3-SG-w80" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="1214"/>
         </scene>
         <!--Screen B-->
         <scene sceneID="Y7v-k0-FeK">
@@ -112,6 +179,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="folder" catalog="system" width="128" height="97"/>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+        <image name="trash" catalog="system" width="121" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

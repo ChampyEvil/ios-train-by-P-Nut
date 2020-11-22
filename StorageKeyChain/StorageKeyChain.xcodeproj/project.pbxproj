@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E432CE01256A4E7900034670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E432CE00256A4E7900034670 /* AppDelegate.swift */; };
+		E432CE03256A4E7900034670 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E432CE02256A4E7900034670 /* SceneDelegate.swift */; };
+		E432CE05256A4E7900034670 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E432CE04256A4E7900034670 /* ViewController.swift */; };
+		E432CE08256A4E7900034670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E432CE06256A4E7900034670 /* Main.storyboard */; };
+		E432CE0B256A4E7900034670 /* StorageKeyChain.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E432CE09256A4E7900034670 /* StorageKeyChain.xcdatamodeld */; };
+		E432CE0D256A4E7B00034670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E432CE0C256A4E7B00034670 /* Assets.xcassets */; };
+		E432CE10256A4E7B00034670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E432CE0E256A4E7B00034670 /* LaunchScreen.storyboard */; };
+		E432CE1B256A4E7B00034670 /* StorageKeyChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E432CE1A256A4E7B00034670 /* StorageKeyChainTests.swift */; };
+		E432CE26256A4E7B00034670 /* StorageKeyChainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E432CE25256A4E7B00034670 /* StorageKeyChainUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E432CE17256A4E7B00034670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E432CDF5256A4E7900034670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E432CDFC256A4E7900034670;
+			remoteInfo = StorageKeyChain;
+		};
+		E432CE22256A4E7B00034670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E432CDF5256A4E7900034670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E432CDFC256A4E7900034670;
+			remoteInfo = StorageKeyChain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E432CDFD256A4E7900034670 /* StorageKeyChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorageKeyChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E432CE00256A4E7900034670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E432CE02256A4E7900034670 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E432CE04256A4E7900034670 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E432CE07256A4E7900034670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E432CE0A256A4E7900034670 /* StorageKeyChain.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StorageKeyChain.xcdatamodel; sourceTree = "<group>"; };
+		E432CE0C256A4E7B00034670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E432CE0F256A4E7B00034670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E432CE11256A4E7B00034670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E432CE16256A4E7B00034670 /* StorageKeyChainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorageKeyChainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E432CE1A256A4E7B00034670 /* StorageKeyChainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageKeyChainTests.swift; sourceTree = "<group>"; };
+		E432CE1C256A4E7B00034670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E432CE21256A4E7B00034670 /* StorageKeyChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorageKeyChainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E432CE25256A4E7B00034670 /* StorageKeyChainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageKeyChainUITests.swift; sourceTree = "<group>"; };
+		E432CE27256A4E7B00034670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E432CDFA256A4E7900034670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E432CE13256A4E7B00034670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E432CE1E256A4E7B00034670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E432CDF4256A4E7900034670 = {
+			isa = PBXGroup;
+			children = (
+				E432CDFF256A4E7900034670 /* StorageKeyChain */,
+				E432CE19256A4E7B00034670 /* StorageKeyChainTests */,
+				E432CE24256A4E7B00034670 /* StorageKeyChainUITests */,
+				E432CDFE256A4E7900034670 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E432CDFE256A4E7900034670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E432CDFD256A4E7900034670 /* StorageKeyChain.app */,
+				E432CE16256A4E7B00034670 /* StorageKeyChainTests.xctest */,
+				E432CE21256A4E7B00034670 /* StorageKeyChainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E432CDFF256A4E7900034670 /* StorageKeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				E432CE00256A4E7900034670 /* AppDelegate.swift */,
+				E432CE02256A4E7900034670 /* SceneDelegate.swift */,
+				E432CE04256A4E7900034670 /* ViewController.swift */,
+				E432CE06256A4E7900034670 /* Main.storyboard */,
+				E432CE0C256A4E7B00034670 /* Assets.xcassets */,
+				E432CE0E256A4E7B00034670 /* LaunchScreen.storyboard */,
+				E432CE11256A4E7B00034670 /* Info.plist */,
+				E432CE09256A4E7900034670 /* StorageKeyChain.xcdatamodeld */,
+			);
+			path = StorageKeyChain;
+			sourceTree = "<group>";
+		};
+		E432CE19256A4E7B00034670 /* StorageKeyChainTests */ = {
+			isa = PBXGroup;
+			children = (
+				E432CE1A256A4E7B00034670 /* StorageKeyChainTests.swift */,
+				E432CE1C256A4E7B00034670 /* Info.plist */,
+			);
+			path = StorageKeyChainTests;
+			sourceTree = "<group>";
+		};
+		E432CE24256A4E7B00034670 /* StorageKeyChainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E432CE25256A4E7B00034670 /* StorageKeyChainUITests.swift */,
+				E432CE27256A4E7B00034670 /* Info.plist */,
+			);
+			path = StorageKeyChainUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E432CDFC256A4E7900034670 /* StorageKeyChain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E432CE2A256A4E7B00034670 /* Build configuration list for PBXNativeTarget "StorageKeyChain" */;
+			buildPhases = (
+				E432CDF9256A4E7900034670 /* Sources */,
+				E432CDFA256A4E7900034670 /* Frameworks */,
+				E432CDFB256A4E7900034670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StorageKeyChain;
+			productName = StorageKeyChain;
+			productReference = E432CDFD256A4E7900034670 /* StorageKeyChain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E432CE15256A4E7B00034670 /* StorageKeyChainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E432CE2D256A4E7B00034670 /* Build configuration list for PBXNativeTarget "StorageKeyChainTests" */;
+			buildPhases = (
+				E432CE12256A4E7B00034670 /* Sources */,
+				E432CE13256A4E7B00034670 /* Frameworks */,
+				E432CE14256A4E7B00034670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E432CE18256A4E7B00034670 /* PBXTargetDependency */,
+			);
+			name = StorageKeyChainTests;
+			productName = StorageKeyChainTests;
+			productReference = E432CE16256A4E7B00034670 /* StorageKeyChainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E432CE20256A4E7B00034670 /* StorageKeyChainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E432CE30256A4E7B00034670 /* Build configuration list for PBXNativeTarget "StorageKeyChainUITests" */;
+			buildPhases = (
+				E432CE1D256A4E7B00034670 /* Sources */,
+				E432CE1E256A4E7B00034670 /* Frameworks */,
+				E432CE1F256A4E7B00034670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E432CE23256A4E7B00034670 /* PBXTargetDependency */,
+			);
+			name = StorageKeyChainUITests;
+			productName = StorageKeyChainUITests;
+			productReference = E432CE21256A4E7B00034670 /* StorageKeyChainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E432CDF5256A4E7900034670 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					E432CDFC256A4E7900034670 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					E432CE15256A4E7B00034670 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = E432CDFC256A4E7900034670;
+					};
+					E432CE20256A4E7B00034670 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = E432CDFC256A4E7900034670;
+					};
+				};
+			};
+			buildConfigurationList = E432CDF8256A4E7900034670 /* Build configuration list for PBXProject "StorageKeyChain" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E432CDF4256A4E7900034670;
+			productRefGroup = E432CDFE256A4E7900034670 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E432CDFC256A4E7900034670 /* StorageKeyChain */,
+				E432CE15256A4E7B00034670 /* StorageKeyChainTests */,
+				E432CE20256A4E7B00034670 /* StorageKeyChainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E432CDFB256A4E7900034670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E432CE10256A4E7B00034670 /* LaunchScreen.storyboard in Resources */,
+				E432CE0D256A4E7B00034670 /* Assets.xcassets in Resources */,
+				E432CE08256A4E7900034670 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E432CE14256A4E7B00034670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E432CE1F256A4E7B00034670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E432CDF9256A4E7900034670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E432CE05256A4E7900034670 /* ViewController.swift in Sources */,
+				E432CE0B256A4E7900034670 /* StorageKeyChain.xcdatamodeld in Sources */,
+				E432CE01256A4E7900034670 /* AppDelegate.swift in Sources */,
+				E432CE03256A4E7900034670 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E432CE12256A4E7B00034670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E432CE1B256A4E7B00034670 /* StorageKeyChainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E432CE1D256A4E7B00034670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E432CE26256A4E7B00034670 /* StorageKeyChainUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E432CE18256A4E7B00034670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E432CDFC256A4E7900034670 /* StorageKeyChain */;
+			targetProxy = E432CE17256A4E7B00034670 /* PBXContainerItemProxy */;
+		};
+		E432CE23256A4E7B00034670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E432CDFC256A4E7900034670 /* StorageKeyChain */;
+			targetProxy = E432CE22256A4E7B00034670 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E432CE06256A4E7900034670 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E432CE07256A4E7900034670 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E432CE0E256A4E7B00034670 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E432CE0F256A4E7B00034670 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E432CE28256A4E7B00034670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E432CE29256A4E7B00034670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E432CE2B256A4E7B00034670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LAUPYF9QBL;
+				INFOPLIST_FILE = StorageKeyChain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.StorageKeyChain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E432CE2C256A4E7B00034670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LAUPYF9QBL;
+				INFOPLIST_FILE = StorageKeyChain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.StorageKeyChain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E432CE2E256A4E7B00034670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LAUPYF9QBL;
+				INFOPLIST_FILE = StorageKeyChainTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.StorageKeyChainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StorageKeyChain.app/StorageKeyChain";
+			};
+			name = Debug;
+		};
+		E432CE2F256A4E7B00034670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LAUPYF9QBL;
+				INFOPLIST_FILE = StorageKeyChainTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.StorageKeyChainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StorageKeyChain.app/StorageKeyChain";
+			};
+			name = Release;
+		};
+		E432CE31256A4E7B00034670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LAUPYF9QBL;
+				INFOPLIST_FILE = StorageKeyChainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.StorageKeyChainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StorageKeyChain;
+			};
+			name = Debug;
+		};
+		E432CE32256A4E7B00034670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LAUPYF9QBL;
+				INFOPLIST_FILE = StorageKeyChainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.StorageKeyChainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StorageKeyChain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E432CDF8256A4E7900034670 /* Build configuration list for PBXProject "StorageKeyChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E432CE28256A4E7B00034670 /* Debug */,
+				E432CE29256A4E7B00034670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E432CE2A256A4E7B00034670 /* Build configuration list for PBXNativeTarget "StorageKeyChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E432CE2B256A4E7B00034670 /* Debug */,
+				E432CE2C256A4E7B00034670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E432CE2D256A4E7B00034670 /* Build configuration list for PBXNativeTarget "StorageKeyChainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E432CE2E256A4E7B00034670 /* Debug */,
+				E432CE2F256A4E7B00034670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E432CE30256A4E7B00034670 /* Build configuration list for PBXNativeTarget "StorageKeyChainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E432CE31256A4E7B00034670 /* Debug */,
+				E432CE32256A4E7B00034670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E432CE09256A4E7900034670 /* StorageKeyChain.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E432CE0A256A4E7900034670 /* StorageKeyChain.xcdatamodel */,
+			);
+			currentVersion = E432CE0A256A4E7900034670 /* StorageKeyChain.xcdatamodel */;
+			path = StorageKeyChain.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E432CDF5256A4E7900034670 /* Project object */;
+}
